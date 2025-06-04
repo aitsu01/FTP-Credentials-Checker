@@ -28,6 +28,11 @@ Uno strumento desktop sviluppato in Python per testare la connessione a un serve
 - `ctypes`
 - C++ (DLL)
 
+- ## 🌐 Live Demo
+
+Check out the project live at:  
+👉 https://aitsu01.github.io/FTP-Credentials-Checker/
+
 ##  Avvio rapido ##
 
 ```bash
@@ -35,10 +40,7 @@ git clone https://github.com/tuo-username/ftp-verifier.git
 cd ftp-verifier
 python ftp_verifier.py
 
-## 🌐 Live Demo
 
-Check out the project live at:  
-👉 https://aitsu01.github.io/FTP-Credentials-Checker/](https://aitsu01.github.io/FTP-Credentials-Checker/)
 
 
 ## Assicurati di avere FtpBackend.dll nella stessa cartella dello script ##
