@@ -1,6 +1,8 @@
-Ftp account checker verify
+# FTP Credentials Checker
 
-## FTP Verifier Tool ##
+A fast and simple Python script to test multiple FTP login credentials from lists of servers, usernames, and passwords.
+
+
 
 Uno strumento desktop sviluppato in Python per testare la connessione a un server FTP, verificare le credenziali tramite upload di un file di test e salvare i dati in un file `.env`.
 
