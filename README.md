@@ -28,10 +28,10 @@ Uno strumento desktop sviluppato in Python per testare la connessione a un serve
 - `ctypes`
 - C++ (DLL)
 
-- ## 🌐 Live Demo
+## 🌐 Live Demo
 
-Check out the project live at:  
-👉 https://aitsu01.github.io/FTP-Credentials-Checker/
+Try the live web version here:  
+👉 [https://aitsu01.github.io/FTP-Credentials-Checker](https://aitsu01.github.io/FTP-Credentials-Checker)
 
 ##  Avvio rapido ##
 
