@@ -35,4 +35,10 @@ git clone https://github.com/tuo-username/ftp-verifier.git
 cd ftp-verifier
 python ftp_verifier.py
 
+## 🌐 Live Demo
+
+Check out the project live at:  
+👉 [https://aitsu01.github.io/FTP-Credentials-Checker/](https://aitsu01.github.io/FTP-Credentials-Checker/)
+
+
 ## Assicurati di avere FtpBackend.dll nella stessa cartella dello script ##
