@@ -1,30 +1,75 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FTP Credentials Checker - Python Tool</title>
+  <title>FTP Credentials Checker - Python Utility</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #2c3e50;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #34495e;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid #ddd;
+      padding-top: 1rem;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 2rem; background-color: #f9f9f9;">
+<body>
   <h1>FTP Credentials Checker</h1>
-  <p><strong>A lightweight Python script to check FTP login credentials.</strong></p>
+  <p><strong>A streamlined Python utility for verifying FTP credentials, uploading test files, and simplifying FTP setup on shared hosting environments.</strong></p>
 
-  <h2>🔧 What it does</h2>
+  <h2>🔧 Key Features</h2>
   <ul>
-    <li>Checks multiple usernames and passwords across multiple FTP servers</li>
-    <li>Logs successful login attempts</li>
-    <li>Great for sysadmins and cybersecurity students</li>
+    <li>Authenticates against multiple FTP servers using provided credentials</li>
+    <li>Uploads a test file upon successful login</li>
+    <li>Automatically stores connection info in a secure <code>.env</code> file</li>
+    <li>Speeds up FTP configuration on web hosting platforms</li>
+    <li>Lightweight, fast, and easy to customize</li>
   </ul>
 
-  <h2>📥 Download & Usage</h2>
-  <p>Check out the full project on <a href="https://github.com/aitsu01/FTP-Credentials-Checker" target="_blank">GitHub</a>.</p>
+  <h2>📦 How It Works</h2>
+  <ol>
+    <li>Reads server, username, and password lists from text files</li>
+    <li>Attempts connection and login to each FTP server</li>
+    <li>Uploads a basic test file to confirm access</li>
+    <li>Saves valid credentials in a <code>.env</code> file for reuse</li>
+  </ol>
 
-  <h2>🛑 Disclaimer</h2>
-  <p>This tool is for educational use and authorized security testing only.</p>
+  <h2>📁 Usage & Download</h2>
+  <p>To explore the code or contribute, visit the project on 
+    <a href="https://github.com/aitsu01/FTP-Credentials-Checker" target="_blank">GitHub</a>.
+  </p>
 
-  <footer style="margin-top: 2rem; font-size: 0.9rem; color: gray;">
-    &copy; 2025 - aitsu01
+  <h2>🛡️ Legal Disclaimer</h2>
+  <p>This tool is intended solely for educational use and authorized FTP setup/testing. It is <strong>not</strong> a brute-force utility. Do not use it on servers without permission.</p>
+
+  <footer>
+    &copy; 2025 - aitsu01 · Powered by Python
   </footer>
 </body>
 </html>
