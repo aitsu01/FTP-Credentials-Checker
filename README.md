@@ -15,7 +15,8 @@ Uno strumento desktop sviluppato in Python per testare la connessione a un serve
 -  Interfaccia semplice con `tkinter`
 
 
-![ftp3](https://github.com/user-attachments/assets/aad10aee-0a88-4242-82c0-8de9e750cae4)
+![ftp6](https://github.com/user-attachments/assets/4acbe3a5-e6aa-4156-ae33-fe916746365f)
+
 
 
 
